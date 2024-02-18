@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Limon Portfoilo</title>
+</head>
+<body>
+    <div class="navbar bg-base-100 md:hidden lg:hidden">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="./main.html">About Me</a></li>
+              <li><a href="./resume.html">Resume</a></li>
+              <li><a href="./contact-me.html">Contacet Me</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a class="btn btn-ghost text-xl">RASEL</a>
+        </div>
+    </div>
+    <main class="flex text-white">
+        <header class="w-[20rem] bg-gray-700 h-screen hidden md:block lg:block">
+            <div class="flex flex-col content-center text-white">
+                <div class="text-center my-4 text-[1.5rem] text-bold">MD. MOHAIMENUL</div>
+                <div class="avatar justify-center">
+                    <div class="w-44 rounded-full">
+                      <img src="./static/image/profile.jpg" />
+                    </div>
+                </div>
+                <div class="text-center text-[0.90rem] py-4 px-3">Hi, my name is Simon Doe and I'm a senior software engineer. Welcome to my personal website!</div>
+                <div class="flex justify-center gap-x-3">
+                    <a href="https://twitter.com/Mohaime59484232"  target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 py-[5px] px-[10px] rounded-full">
+                        <i class="fab fa-twitter text-white"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohaimenul-rasel-152718188/"  target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 py-[5px] px-[10px] rounded-full">
+                        <i class="fab fa-linkedin-in text-white"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mohaimenul.islam.5648/"  target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 py-[5px] px-[12px] rounded-full">
+                        <i class="fab fa-facebook-f text-white"></i>
+                    </a>
+                    <a href="#" class="bg-green-600 hover:bg-green-700 py-[5px] px-[10px] rounded-full">
+                        <i class="fab fa-github text-white"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center mt-6">
+                <ul class="menu w-56">
+                    <li>
+                      <a href="./main.html" class="text-white text-[0.99rem] focus:text-white-700 active:text-white-700 hover:bg-green-600">
+                        <i class="fas fa-user"></i>
+                      About me
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./resume.html" class="text-white text-[0.99rem] focus:text-white-700 active:text-white-700 hover:bg-green-600 bg-green-600">
+                        <i class="fas fa-file-alt"></i>
+                        Resume
+                      </a>
+                    </li>
+                    <li>
+                        <a href="./contact-me.html" class="text-white text-[0.99rem] focus:text-white-700 active:text-white-700 hover:bg-green-600">
+                            <i class="fas fa-id-card"></i>
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="w-max md:w-full bg-gray-900 p-[1rem] md:p-[6rem] h-screen md:overflow-scroll">
+            <div class="flex justify-center">
+                <div class="text-white">
+                    <h1 class="py-5 text-[1.7rem] text-bold text-center">Online Resume</h1>
+                    <a href="./static/rasel_cv.pdf" class="bg-emerald-400 hover:bg-emerald-500 py-3 px-6 rounded-md"><i class="fas fa-file-pdf"></i> Download PDF Vesion</a>
+                </div>
+            </div>
+            <div class="flex justify-center mt-6">
+                <div class="rounded bg-gray-700 w-max md:w-3/4 p-2 md:p-8 text-white">
+                    <div class="flex justify-start gap-x-7 items-center">
+                        <div>
+                            <img src="./static/image/profile.jpg" class="rounded-full w-[200px] h-[200px]"  alt="">
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <h1 class="text-[1.3rem] font-[700]">MD. MOHAIMENUL ISLAM</h1>
+                            <h5 class="text-[1rem] font-[500]">B.Sc. Engg. in Computer Science & Engineering</h5>
+                            <div class="flex gap-x-7">
+                                <div><span class="text-cyan-500">@</span> mohaimenul103684@gmail.com</div>
+                                <div>
+                                    <span><i class="fas fa-phone-alt text-cyan-500"></i></span>
+                                    <span>+88 01306 040635,</span>
+                                    <span>+88 01401 581371</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fas fa-map-marker text-cyan-500"></i>
+                                <span>Goalgram, Mahmudpur, Kashiani, Gopalganj.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">CAREER OBJECTIVE</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="p-2 whitespace-normal text-left w-[70rem] md:w-auto break-all">
+                            As a fresh graduate of Computer Science & Engineering I’m keenly aware of the obstacles lying ahead of the
+                            students of this field. My objective is to leverage my academic background and technical skills to contribute
+                            effectively to innovative projects and solutions. I aim to continuously learn and adapt to emerging technologies
+                            while collaborating with a dynamic team to solve complex problems. Seeking a challenging role where I
+                            can apply my passion for coding, problem-solving, and creativity to make a meaningful impact in the field of
+                            technology.
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">TECHNICAL SKILLS</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="grid grid-cols-7 w-max">
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">C/C++</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Java</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">PHP</p>
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Python</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Django</p>
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Dart</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Flutter</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">DBMS</p>
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">SQL</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">MySQL</p>
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">SQLite</p>
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1rem] 
+                          font-[600]">HTML/CSS</p>  
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">JavaScript</p> 
+                          <p class="rounded px-5 py-2 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">MS Office</p>   
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">PROJECT WORKS</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="text-white flex flex-col gap-y-2">
+                            <div class="flex gap-x-3 items-center">
+                                <span>1.</span>
+                                <div class="text-[1rem] font-[600]">Security System for Text File (Using Encryption)</div>
+                                <a href="#" class="text-blue-500">| Windows Application |</a>
+                                <div class="flex gap-x-5">
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">C/C++</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Ceaser Cipher</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <span>2.</span>
+                                <div class="text-[1rem] font-[600]">Guessing Game (Using GUI)</div>
+                                <a href="#" class="text-blue-500">| Windows Application |</a>
+                                <div class="flex gap-x-5">
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">C/C++</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">GTK</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <span>3.</span>
+                                <div class="text-[1rem] font-[600]">CivilWork - Rebar Calculation</div>
+                                <a href="#" class="text-blue-500">| Windows Application |</a>
+                                <div class="flex gap-x-5">
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">PHP</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">JavaScript</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">MySQL</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Bootstrap</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <span>4.</span>
+                                <div class="text-[1rem] font-[600]">Hotel Reservation Application</div>
+                                <a href="#" class="text-blue-500">| Mobile App |</a>
+                                <div class="flex gap-x-5">
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Dart</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Flutter</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Firebase</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <span>5.</span>
+                                <div class="text-[1rem] font-[600]">Home Automation</div>
+                                <a href="#" class="text-blue-500">| Hardware Project |</a>
+                                <div class="flex gap-x-5">
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">NodeMCU</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Light Sensor</p>
+                                    <p class="rounded px-3 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Temperature and Humidity Sensor</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <span>6.</span>
+                                <div class="text-[1rem] font-[600]">Shop App</div>
+                                <a href="#" class="text-blue-500">| Mobile App |</a>
+                                <div class="flex gap-x-5">
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Dart</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Flutter</p>
+                                    <p class="rounded px-5 py-2 cursor-pointer border 
+                                    border-orange-700 
+                                    hover:border-orange-400 
+                                    text-[1.2rem] 
+                                    font-[600]">Firebase</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">CODING SKILLS ON ONLINE PLATFORM</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="">
+                           <div class="text-[1rem] font-[600] mb-3">About 100+ problem solve on different online platform</div>
+                            <div class="flex gap-x-3">
+                                <div>
+                                    <img src="./static/image/cc-logo.png" class="w-[100px]" alt="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <a href="#" class="text-[1rem] font-[700] text-blue-500">Codechef Profile</a>
+                                    <div class="text-[1rem] font-[600]">Solved 80+ problems</div>
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 mt-3">
+                                <div>
+                                    <img src="./static/image/logo.png" class="w-[100px]" alt="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <a href="#" class="text-[1rem] font-[700] text-blue-500">Toph Profile</a>
+                                    <div class="text-[1rem] font-[600]">Solved 10+ problems</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">TRAINING</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="flex gap-x-3 mt-3 items-center">
+                            <div>
+                                <i class="fas fa-trophy text-amber-600 text-[2.5rem]"></i>
+                            </div>
+                            <div class="flex flex-col">
+                                <a href="#" class="text-[1.5rem] font-[700] text-white">2021</a>
+                                <div class="text-[1rem] font-[600] text-gray-300">Training for Mobile Application Developer (Android) of ICT DIVISION in BSMRSTU, Gopalganj.</div>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-3 mt-3 items-center">
+                            <div>
+                                <i class="fas fa-trophy text-amber-600 text-[2.5rem]"></i>
+                            </div>
+                            <div class="flex flex-col">
+                                <a href="#" class="text-[1.5rem] font-[700] text-white">2023</a>
+                                <div class="text-[1rem] font-[600] text-gray-300">Two weeks Industrial training at Brain Station 23 in Dhaka.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">CERTIFICATE</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="text-white flex flex-col gap-y-2">
+                            <div class="flex gap-x-3 items-center">
+                                <span>1.</span>
+                                <div class="text-[1rem] font-[600]">Skill development for Mobile Game and Application Project.</div>
+                                <a href="#" class="text-blue-500">| Link</a>
+                                
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <span>2.</span>
+                                <div class="text-[1rem] font-[600]">Introduction to Python provided by Analytics Vidhya</div>
+                                <a href="#" class="text-blue-500">| Link |</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">EDUCATION</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="text-white flex flex-col gap-y-2">
+                            <div class="flex flex-col gap-y-2">
+                                <div class="flex gap-x-3 items-center">
+                                    <div class="text-[0.89rem] font-[600]">Bachelor of Science (B.Sc.)</div>
+                                    <a href="#" class="text-[0.89rem] font-[600] text-blue-500">| Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj.</a>
+                                </div>
+                                <div class="flex gap-x-3 items-center justify-between">
+                                    <div class="text-[1rem] font-[600]"><i class="fas fa-calendar text-blue-500 mr-3"></i> Passing Year: 2022</div>
+                                    <a href="#" class="text-[1rem] font-[600]"><i class="fas fa-map-marker text-blue-500 mr-3"></i> Department of Computer Science & Engineering</a>
+                                </div>
+                                <ul class="list-disc pl-4">
+                                    <li>CGPA 3.05 Out of 4.00</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col gap-y-2">
+                                <div class="flex gap-x-3 items-center">
+                                    <div class="text-[0.89rem] font-[600]">Higher Secondary School Certificate (HSC)</div>
+                                    <a href="#" class="text-[0.89rem] font-[600] text-blue-500">| Bangladesh Navy School & College, Chittagong.</a>
+                                </div>
+                                <div class="flex gap-x-3 items-center justify-between">
+                                    <div class="text-[1rem] font-[600]"><i class="fas fa-calendar text-blue-500 mr-3"></i> Passing Year: 2018</div>
+                                    <a href="#" class="text-[1rem] font-[600]"><i class="fas fa-map-marker text-blue-500 mr-3"></i> Group: Science, Chattogram Board</a>
+                                </div>
+                                <ul class="list-disc pl-4">
+                                    <li>GPA: 5.00 Out of 5.00</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col gap-y-2">
+                                <div class="flex gap-x-3 items-center">
+                                    <div class="text-[0.89rem] font-[600]">Secondary School Certificate (SSC)</div>
+                                    <a href="#" class="text-[0.89rem] font-[600] text-blue-500">| Bangladesh Navy School & College, Chittagong.</a>
+                                </div>
+                                <div class="flex gap-x-3 items-center justify-between">
+                                    <div class="text-[1rem] font-[600]"><i class="fas fa-calendar text-blue-500 mr-3"></i> Passing Year: 2016</div>
+                                    <a href="#" class="text-[1rem] font-[600]"><i class="fas fa-map-marker text-blue-500 mr-3"></i> Group: Science, Chattogram Board</a>
+                                </div>
+                                <ul class="list-disc pl-4">
+                                    <li>GPA: 5.00 Out of 5.00</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">LANGUAGES</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="text-white flex flex-col gap-y-2">
+                            <p class="rounded px-3 py-1 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Bangla : Writing-Excellent, Reading-Excellent, Listening-Excellent and Speaking-Excellent</p>
+                          <p class="rounded px-3 py-1 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">English : Writing-Excellent, Reading-Excellent, Listening-Good and Speaking-Good</p>
+                          <p class="rounded px-3 py-1 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Hindi/Urdu : Listening-Excellent, Speaking-Excellent</p>
+                          <p class="rounded px-3 py-1 cursor-pointer border 
+                          border-orange-700 
+                          hover:border-orange-400 
+                          text-[1.2rem] 
+                          font-[600]">Arabic : Reading-Good, Listening-Good</p>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <div class="text-[1.2rem] font-[700] font-serif">REFERENCES</div>
+                        <div class="divider my-2 bg-emerald-400 h-[0.2rem]"></div> 
+                        <div class="text-white flex justify-between">
+                            <div class="text-[1.2rem]">
+                                <div>Sakifa Aktar</div>
+                                <div>Assistant Professor</div>
+                                <div>Department of Computer Science and Engineering (CSE)</div>
+                                <div>Bangabandhu Sheikh Mujibur Rahman Science and
+                                    University, Gopalganj.</div>
+                                <div><i class="fas fa-phone-alt text-blue-500"></i> <span>+88 01762 899397</span></div>
+                                <div><span class="text-blue-500">@</span><span>sakifaaktar133089@gmail.com</span></div>
+                            </div>
+                            <div class="text-[1.2rem]">
+                                <div>Dr. Saleh Ahmed; D. Engineering</div>
+                                <div>Chairman, Department of Computer Science and Engineering</div>
+                                <div>Dean, Faculty of Engineering</div>
+                                <div>Bangabandhu Sheikh Mujibur Rahman Science and
+                                    University, Gopalganj.</div>
+                                <div><i class="fas fa-phone-alt text-blue-500"></i> <span>+88 01717 487506</span></div>
+                                <div><span class="text-blue-500">@</span><span>sumon.edu@gmail.com</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</body>
+</html>
